@@ -1150,6 +1150,7 @@ table th[data-sortt-desc] .svg {
   min-width: 0;
 }
 
+.ui.dropdown > .ui.button,
 .flex-text-block > .ui.button,
 .flex-text-inline > .ui.button {
   margin: 0; /* fomantic buttons have default margin, when we use them in a flex container with gap, we do not need these margins */
@@ -1185,16 +1186,6 @@ the "!important" is necessary to override Fomantic UI menu item styles, meanwhil
   white-space: nowrap !important;
   overflow: hidden !important;
   text-overflow: ellipsis !important;
-}
-
-.ui.dropdown.text-flex-grow {
-  display: flex;
-}
-
-.ui.dropdown.text-flex-grow > .text {
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
 }
 
 .svg.octicon-file-directory-fill,
